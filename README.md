@@ -6,7 +6,7 @@ Features:
 Input fields for name, email, number, dropdown options, radio options, and checkbox options.
 Responsive layout adapting to various screen sizes.
 
-Remarks: Could have done a better job overall with it being responsive for all devices. This was our first project, but I'm excited to see where else I can improve on in future endeavors. I tried to mantain good spacing, but
+Remarks: Could have done a better job overall with it being responsive for all devices. This was my first project built from scratch, but I'm excited to see where else I can improve on in future endeavors. I tried to mantain good spacing, but
 it seems a bit unbalanced at some spots.
 
 
