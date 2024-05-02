@@ -1,0 +1,74 @@
+body {
+    background-color: #708090; 
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 40px;
+}
+.header p {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.container {
+    background-color: black;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 40px 30px;
+    font-size: 20px;
+}
+
+input, select {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px 0px 20px 0px;
+    color: black;
+    background-color: white;
+}
+
+.radio-check p {
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.radio-check label {
+    display: block;
+    margin: 8px 0px;
+}
+
+.radio-check input {
+    margin: 8px 8px 10px 20px;
+    width: auto;
+    
+}
+
+.text-area {
+    margin: 20px 0px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#submit {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0px;
+    color: white;
+    background-color: #4682b4; 
+    border: black solid 2px;
+    border-radius: 10px;
+}

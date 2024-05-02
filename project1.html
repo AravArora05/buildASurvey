@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+   
+    <div class="header">
+        <h1 id="title">OBF Basketball Registration Form</h1>
+        <p id="description"><strong>Show your interest below by submitting the form! Project built by Arav Arora(GaTech'26)</strong></p>
+    </div>
+    
+    <div class="container">
+        <form id="survey-form" action="" method="GET">
+            <label for="name" id="name-label">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+            <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" name="number" min="1" max="130" placeholder="Enter your age">
+            <label for="dropdown">What grade are you currently in?</label>
+            <label>Pick Grade (as of Fall 2024):
+                <select id="dropdown" required>
+                    <option value="1">1st</option>
+                    <option value="2">2nd</option>
+                    <option value="3">3rd</option>
+                    <option value="4">4th</option>
+                    <option value="5">5th</option>
+                    <option value="6">6th</option>
+                    <option value="7">7th</option>
+                    <option value="8">8th</option>
+                    <option value="9">9th</option>
+                    <option value="10">10th</option>
+                    <option value="11">11th</option>
+                    <option value="12">12th</option>
+                </select>
+            </label>
+            <div class="radio-check">
+                <p>Which positions do you play on the basketball court? <span style="font-size: 15px;">(Check all that apply)</span></p>
+                <label for="point-guard"><input type="checkbox" name="positions-played" id="point-guard" value="Point Guard">Point Guard</label>
+                <label for="shooting-guard"><input type="checkbox" name="positions-played" id="shooting-guard" value="Shooting Guard">Shooting Guard</label>
+                <label for="small-forward"><input type="checkbox" name="positions-played" id="small-forward" value="Small Forward">Small Forward</label>
+                <label for="power-forward"><input type="checkbox" name="positions-played" id="power-forward" value="Power Forward">Power Forward</label>
+                <label for="center"><input type="checkbox" name="positions-played" id="center" value="Center">Center</label>
+            </div>
+            <div class="text-area">
+                <label for="text-box">Do you have anything else that you would like us to know?</label>
+                <textarea id="text-box" name="text-box" rows="6" placeholder="Tell us what you think!"></textarea>
+            </div>
+            <button id="submit" type="submit" form="survey-form" value="Submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
